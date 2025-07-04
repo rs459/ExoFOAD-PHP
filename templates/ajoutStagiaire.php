@@ -6,7 +6,7 @@
 <body class="page-stagiaire-add">
     <?php require_once __DIR__ . '/partials/_navbar.php'; ?>
     <main class="container">
-        <h1 class="text-center m-5">Ajouter d'un stagiaire</h1>
+        <h1 class="text-center m-5">Ajouter un stagiaire</h1>
 
         <form method="post" action="../src/controllers/ajoutStagiaireController.php" enctype="multipart/form-data">
             <p class="mb-4"><span class="text-danger" aria-hidden="true">*</span> <span class="visually-hidden">Champ obligatoire.</span> <span class="d-inline">Champs obligatoires</span></p>
